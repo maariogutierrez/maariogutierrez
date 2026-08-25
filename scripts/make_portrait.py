@@ -50,7 +50,7 @@ FG_DARK = "#c9d1d9"        # and its dark-mode step
 CHAR_W = 7.74              # 0.600 em at FONT_SIZE — keep these in step
 FONT_SIZE = 12.9
 LINE_H = 15
-ROW_DELAY = 0.09           # per-row stagger, seconds
+ROW_DELAY = 0.03           # per-row stagger, seconds
 FAMILY = "ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
 
 
@@ -143,7 +143,7 @@ def build_svg(lines, cols=COLS):
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("photo")
-    ap.add_argument("out", nargs="?", default="ascii.svg")
+    ap.add_argument("out", nargs="?", default="asciifaster.svg")
     ap.add_argument("--crop", help="left,top,right,bottom, applied first — crop "
                                    "tight to the head so the whole grid goes to "
                                    "the face")
