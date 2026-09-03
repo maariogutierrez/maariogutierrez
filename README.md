@@ -27,8 +27,8 @@ Built a GPT-2 architecture from scratch in PyTorch and trained it on the <br>Tin
 **[pacman](https://github.com/maariogutierrez/pacman)** &nbsp;·&nbsp; <samp>python</samp><br>
 A Deep Q-Network agent that learns to play Pac-Man from scratch via <br>reinforcement learning. No hand-coded rules, no hardcoded strategies <br>— just a neural network, a reward signal, and a lot of episodes.
 
-**[bessel-networks](https://github.com/maariogutierrez/bessel-network)** &nbsp;·&nbsp; <samp>python</samp><br>
-Several feedforward neural networks with different hidden layer sizes <br>and activation functions learning the distribution of the Bessel Function <br>of the First Kind with order 0.
+**[medallion-pipeline](https://github.com/maariogutierrez/medallion-pipeline)** &nbsp;·&nbsp; <samp>python, kafka, postgresql, docker</samp><br>
+A pipeline to incrementally and progressively improve the quality of data <br>following the medallion architecture. 
 
 **[dynamic-risk-assesment-dashboard](https://github.com/maariogutierrez/dynamic-risk-assessment-dashboard)** &nbsp;·&nbsp; <samp>python, javascript, html, css, docker, elasticsearch</samp><br>
 A Flask-based web application for dynamic cybersecurity risk assessment, <br>combining OWL ontology modeling with Elasticsearch-backed storage to <br>visualize, compute, and propagate risk scores across system architectures.
